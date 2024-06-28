@@ -1,5 +1,5 @@
 .hero {
-  background-image: url("../fundo.a62a0635.png");
+  background-image: url("../hbday-hero.7a55296f.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 64px;
@@ -26,15 +26,16 @@
   text-align: center;
   margin-top: 64px;
   margin-bottom: 64px;
-  font-size: 48px;
+  font-size: 45px;
   font-weight: 900;
   line-height: 56px;
 }
 
-.hero__logo {
-  height: 80px;
-  margin: 0 auto;
-  display: block;
+.hero__text--secondary {
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
 }
 
 @media (width <= 640px) {
@@ -47,30 +48,26 @@
     font-size: 22px;
     line-height: 24px;
   }
-
-  .hero__logo {
-    height: 40px;
-  }
 }
 
 .event {
   padding: 80px 0;
 }
 
-.event--frontend {
+.event--food {
   background-image: linear-gradient(#1b6ca7, #442bdb);
 }
 
-.event--ui-ux {
-  background-image: linear-gradient(#442bdb, #89223b);
+.event--drinks {
+  background-image: linear-gradient(#442bdb, #1b6ca7);
 }
 
-.event--data-science {
-  background-image: linear-gradient(#89223b, #9c791d);
+.event--tricks {
+  background-image: linear-gradient(#1b6ca7, #442bdb);
 }
 
-.event--backend {
-  background-image: linear-gradient(#9c791d, #89223b);
+.event--gifts {
+  background-image: linear-gradient(#442bdb, #1b6ca7);
 }
 
 .event--image-left .container {
@@ -88,13 +85,13 @@
 
 .event__detail__title {
   margin-bottom: 16px;
-  font-size: 18px;
+  font-size: 32px;
   font-weight: bold;
 }
 
 .event__detail__description {
   font-size: 16px;
-  line-height: 22px;
+  line-height: 28px;
 }
 
 @media (width <= 640px) {

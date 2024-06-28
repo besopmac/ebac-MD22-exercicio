@@ -3,7 +3,7 @@
 .hero {
   padding-top: 64px;
   padding-bottom: 100px;
-  background-image: url(../images/fundo.png);
+  background-image: url(../images/hbday-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
@@ -24,19 +24,19 @@
   }
 
   &__text {
+    font-size: 45px;
     margin-top: 64px;
     margin-bottom: 64px;
-    font-size: 48px;
     line-height: 56px;
     font-weight: 900;
     text-align: center;
 
-  }
-
-  &__logo {
-    margin: 0 auto;
-    height: 80px;
-    display: block;
+    &--secondary {
+      line-height: 1;
+      font-size: 18px;
+      font-weight: 400;
+      text-align: center;
+    }
   }
 
   @media (max-width: 640px) {
@@ -46,10 +46,6 @@
       margin: 24px 0;
       font-size: 22px;
       line-height: 24px;
-    } 
-    
-    &__logo {
-      height: 40px;
     }
   }
 }
